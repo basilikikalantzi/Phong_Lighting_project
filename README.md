@@ -18,21 +18,21 @@ To build and run the application:
 
 2. **Enter the project directory and create an out-of-source build folder**
 
-3 **Open CMake GUI:**
+3. **Open CMake GUI:**
   - **Where is the source code:** Browse to the root of the cloned repository.  
   - **Where to build the binaries:** Browse to the newly created `build` folder.
 
-4 **Configure & Generate:**
+4. **Configure & Generate:**
   - Click **Configure**, select the Visual Studio generator (e.g. “Visual Studio 17 2022”), choose the target platform (e.g. x64), then click **Finish**.  
   - Once configuration completes, click **Generate** to create the solution and project files in `build`.
 
-5 **Open the solution from the build folder:**
+5. **Open the solution from the build folder:**
   - In File Explorer, navigate to the `project1/build` folder and double-click on `LearnOpenGL.sln`.
 
-6 **Set startup project:**
+6. **Set startup project:**
   - In Solution Explorer, right-click **3.model_loading__1.model_loading** and choose **Set as Startup Project**.
 
-7 **Run the application:**
+7. **Run the application:**
   - Press **F5** or click **Start** to build and launch the program.
 
 
